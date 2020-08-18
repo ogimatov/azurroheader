@@ -13,7 +13,7 @@
                                     <a class="active" href=http://localhost:8080/azurro/azurrofirstpage.php>Home</a>
                                     <a class="noactive"href=http://localhost:8080/azurro/azurrocheck.php>Check</a>
                                     <a class="noactive" href=http://localhost:8080/azurro/azurrosearch.php>Search</a>
-                                    <a href="#about">Help</a>
+                                    <a class="noactive" href=http://localhost:8080/azurro/azurrogalery.php>Galery</a>
 
                             </div>
 
