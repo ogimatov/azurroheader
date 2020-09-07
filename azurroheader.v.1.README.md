@@ -1,3 +1,6 @@
+<?php
+include_once 'config.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +13,10 @@
             <div class="header">
                     <a href="#default" class="logo">Azurro Owners</a>
                             <div class="header-right">
-                                    <a class="active" href=http://localhost:8080/azurro/azurrofirstpage.php>Home</a>
-                                    <a class="noactive"href=http://localhost:8080/azurro/azurrocheck.php>Check</a>
-                                    <a class="noactive" href=http://localhost:8080/azurro/azurrosearch.php>Search</a>
-                                    <a class="noactive" href=http://localhost:8080/azurro/azurrogalery.php>Galery</a>
+                                    <a class="active" href="<?php echo base_url()?>index.php">Home</a>
+                                    <a class="noactive"href="<?php echo base_url()?>azurrocheck.php">Check</a>
+                                    <a class="noactive" href="<?php echo base_url()?>azurrosearch.php">Search</a>
+                                    <a class="noactive" href="<?php echo base_url()?>azurrogalery.php">Galery</a>
 
                             </div>
 
@@ -25,5 +28,5 @@
 
             </div>
     
-</body>
+</body> 
 </html>
